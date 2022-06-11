@@ -1,0 +1,274 @@
+body {
+  background-color: #042429;
+}
+.d-flex {
+  justify-content: center;
+  /* align-items: center; */
+}
+.khoi1 {
+  position: relative;
+  width: 30em;
+  height: 25em;
+  padding: 7em 10em 10em 10em;
+  justify-content: center;
+}
+.khoi2 {
+  position: relative;
+  width: 30em;
+  height: 30em;
+  padding: 10em;
+  justify-content: center;
+}
+input {
+  margin: 1em;
+  padding: 0.5em;
+}
+h1 {
+  color: #ffff;
+}
+/* label */
+.label1 {
+  position: absolute;
+  top: 16px;
+  left: -48px;
+  background-color: #abecba;
+  padding: 0.6em 1em;
+}
+.label2 {
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  background-color: #abecba;
+  padding: 0.6em 1em;
+}
+.label3 {
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  background-color: #abecba;
+  padding: 0.6em 1em;
+}
+.label4 {
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  background-color: #abecba;
+  padding: 0.6em 1em;
+}
+.label5 {
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  background-color: #abecba;
+  padding: 0.6em 1em;
+}
+.label6 {
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  background-color: #abecba;
+  padding: 0.6em 1em;
+}
+.label7 {
+  position: absolute;
+  top: 16px;
+  left: -15px;
+  background-color: #abecba;
+  padding: 0.6em 1em;
+}
+/* btn tinh 1 */
+#tinh1 {
+  position: absolute;
+  bottom: 5em;
+  margin: auto;
+}
+/* btn tinh 1 */
+#tinh2 {
+  position: absolute;
+  bottom: 5em;
+  margin: auto;
+}
+/* footer */
+#footer1 {
+  position: absolute;
+  width: 60%;
+  height: 3em;
+  bottom: 0em;
+  margin: 1em auto;
+  background-color: #d4edda;
+}
+/*  */
+#footer2 {
+  position: absolute;
+  width: 60%;
+  height: 3em;
+  bottom: 0em;
+  margin: 1em auto;
+  background-color: #d4edda;
+}
+.focus {
+  padding-right: 7em;
+  align-items: center;
+}
+/*  */
+h1 {
+  position: absolute;
+  top: 0;
+}
+/*  */
+.focus1 {
+  position: absolute;
+  top: 4em;
+  right: 0;
+}
+
+.focus1 input[type="text"] {
+  width: 10em;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+.focus1 input[type="text"]:focus {
+  width: 15.5em;
+  outline-width: 0;
+}
+.focus1 input[type="text"]::placeholder {
+  opacity: 0;
+}
+.focus1 input[type="text"]:focus::placeholder {
+  opacity: 1;
+}
+/*  */
+.focus2 {
+  position: absolute;
+  top: 8em;
+  right: 0;
+}
+.focus2 input[type="text"] {
+  width: 12em;
+  overflow: hidden;
+  padding-left: 20px;
+  transition: width 0.5s;
+}
+.focus2 input[type="text"]:focus {
+  width: 15em;
+  outline-width: 0;
+}
+.focus2 input[type="text"]::placeholder {
+  opacity: 0;
+}
+.focus2 input[type="text"]:focus::placeholder {
+  opacity: 1;
+}
+/*  */
+.focus3 {
+  position: absolute;
+  top: 12em;
+  right: 0;
+}
+
+.focus3 input[type="text"] {
+  width: 12em;
+  overflow: hidden;
+  padding-left: 35px;
+  transition: width 0.5s;
+}
+.focus3 input[type="text"]:focus {
+  width: 15.5em;
+  outline-width: 0;
+}
+.focus3 input[type="text"]::placeholder {
+  opacity: 0;
+}
+.focus3 input[type="text"]:focus::placeholder {
+  opacity: 1;
+}
+
+/*  */
+.focus4 {
+  position: absolute;
+  top: 4em;
+  right: 0;
+}
+.focus4 input[type="text"] {
+  width: 12em;
+  padding-left: 28px;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+.focus4 input[type="text"]:focus {
+  width: 15.5em;
+  outline-width: 0;
+}
+.focus4 input[type="text"]::placeholder {
+  opacity: 0;
+}
+.focus4 input[type="text"]:focus::placeholder {
+  opacity: 1;
+}
+/*  */
+.focus5 {
+  position: absolute;
+  top: 8em;
+  right: 0;
+}
+.focus5 input[type="text"] {
+  width: 12em;
+  overflow: hidden;
+  padding-left: 20px;
+  transition: width 0.5s;
+}
+.focus5 input[type="text"]:focus {
+  width: 15em;
+  outline-width: 0;
+}
+.focus5 input[type="text"]::placeholder {
+  opacity: 0;
+}
+.focus5 input[type="text"]:focus::placeholder {
+  opacity: 1;
+}
+/*  */
+.focus6 {
+  position: absolute;
+  top: 12em;
+  right: 0;
+}
+
+.focus6 input[type="text"] {
+  width: 12em;
+  overflow: hidden;
+  padding-left: 25px;
+  transition: width 0.5s;
+}
+.focus6 input[type="text"]:focus {
+  width: 15.5em;
+  outline-width: 0;
+}
+.focus6 input[type="text"]::placeholder {
+  opacity: 0;
+}
+.focus6 input[type="text"]:focus::placeholder {
+  opacity: 1;
+}
+/*  */
+.focus7 {
+  position: absolute;
+  top: 16em;
+  right: 0;
+}
+.focus7 input[type="text"] {
+  width: 12em;
+  overflow: hidden;
+  padding-left: 55px;
+  transition: width 0.5s;
+}
+.focus7 input[type="text"]:focus {
+  width: 15.5em;
+  outline-width: 0;
+}
+.focus7 input[type="text"]::placeholder {
+  opacity: 0;
+}
+.focus7 input[type="text"]:focus::placeholder {
+  opacity: 1;
+}

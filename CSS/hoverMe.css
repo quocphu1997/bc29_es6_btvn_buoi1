@@ -1,0 +1,30 @@
+body {
+  background-color: #ffc600;
+  overflow-x: hidden;
+}
+.heading {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  padding: 20vh;
+  height: 240px;
+  margin: 30px 0;
+  width: 100%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+span {
+  text-shadow: 3px 3px 0 rgb(0 0 0 / 20%);
+  color: #fff;
+  display: inline-block;
+  font-size: 8em;
+  font-weight: 700;
+  transform: scale(1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+span:hover {
+  z-index: 1;
+  transform: scale(1.5) rotate(20deg);
+}

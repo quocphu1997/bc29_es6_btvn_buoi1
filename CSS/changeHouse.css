@@ -1,0 +1,48 @@
+.changColor-house {
+  width: 50%;
+  margin: 20px auto;
+}
+.Change-Color-Container {
+  width: 50%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  border: 1px solid black;
+}
+button {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+.pallet {
+  background-color: #b888f8;
+}
+.viridian {
+  background-color: #80f721;
+}
+.pewter {
+  background-color: #909078;
+}
+.cerulean {
+  background-color: #2840f8;
+}
+.vermillion {
+  background-color: #f89700;
+}
+.lavender{
+    background-color: #c820f8;
+}
+.celadon{
+    background-color: #29f829;
+}
+.saffron{
+    background-color: #f8f801;
+}
+.fuschia{
+    background-color: #f87878;
+}
+.cinnaber{
+    background-color: #f84040;
+}
+/* change Color house */
